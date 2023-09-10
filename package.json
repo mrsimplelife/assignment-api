@@ -2,9 +2,10 @@
   "name": "assignment",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "json-server --watch db.json --port 4000"
+    "dev": "json-server --watch db.json --port 3000",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
